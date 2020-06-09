@@ -38,12 +38,6 @@ Content Management System backed up by grapejs
 
 
 
-`CmsStorage` external object definition
----------------------------------------
-
-
-
-
 `CmsViewer` external object definition
 --------------------------------------
 
