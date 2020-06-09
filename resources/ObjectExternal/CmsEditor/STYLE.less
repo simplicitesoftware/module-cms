@@ -1,0 +1,74 @@
+/* Fix font size */
+
+.gjs-layer, .gjs-trt-traits, .gjs-clm-tags, .gjs-sm-properties, .gjs-editor, .gjs-block-label{
+	font-size: 1rem !important;
+}
+
+/* Fix grapeJS icon font */
+
+@font-face {
+  font-family: 'font3336v2';
+  src: url('/resource?code=GRAPE_FONT_TTF&type=OTHER') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gjs-fonts::before{
+	font-family: font3336v2 !important; 
+}
+
+/* Fix Font awesome 5 errors */
+
+.gjs-block.fa {
+	font-weight: bold !important;
+}
+
+.fa-repeat:before {
+	content: "\f01e" !important; 
+}
+
+.fa-circle-o:before {
+	content: "\f192" !important; 
+}
+
+.fa-clock-o:before {
+	content: "\f017" !important; 
+}
+
+.fa-square-o:before {
+	content: "\f0c8" !important; 
+}
+
+.fa-trash-o:before {
+	content: "\f1f8" !important; 
+}
+
+.fa-map-o:before {
+	content: "\f279" !important; 
+}
+
+.fa-youtube-play:before {
+	content: "\f04b" !important; 
+}
+
+.fa-chevron-right:before {
+	content: "\f054" !important; 
+}
+
+.fa-chevron-down:before {
+	content: "\f078" !important; 
+}
+
+/*
+@font-face {
+  font-family: 'font3336';
+  src: url('#{$fontPath}/#{$fontName}.eot?v=#{$fontV}');
+  src:
+    url('#{$fontPath}/#{$fontName}.woff?v=#{$fontV}') format('woff'),
+    //url('#{$fontPath}/#{$fontName}.woff2?v=#{$fontV}') format('woff2'),
+    url('#{$fontPath}/#{$fontName}.ttf?v=#{$fontV}') format('truetype'),
+    url('#{$fontPath}/#{$fontName}.svg?v=#{$fontV}') format('svg'),
+    url('#{$fontPath}/#{$fontName}.eot?v=#{$fontV}') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}*/
